@@ -22,8 +22,9 @@ highlight LineNr ctermfg=DarkGrey
 
 
 " wildmenu (nicer completion for tabbing in :)
+set ignorecase  " case-insensitive search for wildmenu only; overwrite later
 set wildmenu
-set wildmode=list:longest
+set wildmode=longest:full,full
 
 
 " set a different leader key
