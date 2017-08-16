@@ -99,9 +99,9 @@ nnoremap <C-l> <C-w>l
 
 " NERDTree
 let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
-noremap <leader>t :NERDTreeTabsToggle<CR>
+noremap <leader>t :NERDTreeToggle<CR>
     " ^ open NERDTree at project root (Leader + t)
-noremap <leader>f :NERDTreeTabsFind<CR>
+noremap <leader>f :NERDTreeFind<CR>
     " ^ open NERDTree at current file (Leader + f)
 
 
