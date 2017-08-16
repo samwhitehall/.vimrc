@@ -108,3 +108,8 @@ noremap <leader>f :NERDTreeFind<CR>
 " python-mode
 let g:pymode_options_colorcolumn = 0
 let g:pymode_rope = 0                   " too slow on big files
+
+
+" gitgutter
+let g:gitgutter_realtime = 0
+let g:gitgutter_eager = 0
