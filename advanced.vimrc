@@ -100,6 +100,7 @@ nnoremap <C-l> <C-w>l
 
 " NERDTree
 let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
+let NERDTreeShowHidden=1
 noremap <leader>t :NERDTreeTabsToggle<CR>
     " ^ open NERDTree at project root (Leader + t)
 noremap <leader>f :NERDTreeTabsFind<CR>
