@@ -13,6 +13,8 @@ Plug 'tpope/vim-fugitive'       " full git client
 
 Plug 'dracula/vim'              " nice dark colour scheme
 
+Plug 'neomake/neomake'          " asynchronous program running (e.g. linters)
+
 call plug#end()
 
 filetype plugin indent on
@@ -116,3 +118,6 @@ noremap <leader>f :NERDTreeFind<CR>
 
 " deoplete
 let g:deoplete#enable_at_startup = 1
+
+" neomake
+call neomake#configure#automake('w')
