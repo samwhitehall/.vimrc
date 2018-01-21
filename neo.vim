@@ -5,6 +5,7 @@ Plug 'vim-airline/vim-airline'  " status bar
 
 Plug 'ctrlpvim/ctrlp.vim'       " fuzzy file finding
 Plug 'scrooloose/nerdtree'      " full file manager
+Plug 'jistr/vim-nerdtree-tabs'  " make nerdtree behave with tabs
 Plug 'numkil/ag.nvim'           " file searching (w/ ag)
 
 Plug 'airblade/vim-gitgutter'   " show git status for lines in sidebar
